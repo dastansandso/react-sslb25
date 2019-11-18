@@ -58,35 +58,6 @@ class App extends Component {
           Start editing to see some magic happen :)
         </p>
         </div>
-            <div className="card p-2">
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-        </div>
-            <div className="card p-2">
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-        </div>
-            <div className="card p-2">
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-        </div>
-            <div className="card p-2">
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-        </div>
-            <div className="card p-2">
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
         </div>
       </div>
     );
