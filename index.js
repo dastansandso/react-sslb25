@@ -46,10 +46,8 @@ class App extends Component {
                         <MenuIcon />
                     </IconButton> 
                     <div className={useStyles.title}>
-                        Header
-                    </div>
-                    <Button><a  color="primary" >Login</a></Button>
-                    <Button><a  color="primary" >Register</a></Button>
+                        Dhiraj Patil
+                    </div>                   
                 </Toolbar>
             </AppBar>
       <div className="card p-2 mt-5">
@@ -59,7 +57,6 @@ class App extends Component {
         </p>
         </div>
         </div>
-      </div>
     );
   }
 }
