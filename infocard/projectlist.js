@@ -18,7 +18,7 @@ const ProjectList =(props)=>{
 
  const classes = useStyles();
 return(
-  <div className="container my-2">
+  <div className="container my-3">
   <Paper className={classes.root}>
    <h3 className="py-2 m-0">Work Experience</h3>
    <div className="row justify-content-center">
