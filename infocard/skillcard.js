@@ -11,7 +11,7 @@ return(
    <div className="row no-gutters">
   {props.skils[0].myskills.map(myskill => {
   return(
-    <div className="col">
+    <div className="col text-center">
     <Card className="card ">
       <CardHeader 
             title={myskill.skill} 
