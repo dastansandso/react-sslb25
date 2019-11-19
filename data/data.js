@@ -134,6 +134,41 @@ const Profileinfo = {
                 },
             ]},
             {
+              companyName:'Bindura Digital pvt. ltd.',
+                projects:[
+                    {
+                        ProjectName:'Star Beer Campaign',
+                        TeamSize:'3',
+                        TechnologyUsed:'Wordpress, jQuery',
+                        ExternalLink:'javascript:void(0)', 
+                    },
+                    {
+                        ProjectName:'Live In Canada',
+                        TeamSize:'1',
+                        TechnologyUsed:'Wordpress',
+                        ExternalLink:'javascript:void(0)', 
+                    },
+                    {
+                        ProjectName:'ThinkDirect',
+                        TeamSize:'1',
+                        TechnologyUsed:'Wordpress',
+                        ExternalLink:'https://thinkdirect.me/', 
+                    },
+                    {
+                        ProjectName:'Exhibition Globe',
+                        TeamSize:'2',
+                        TechnologyUsed:'Wordpress',
+                        ExternalLink:'http://www.exhibitionglobe.com/',
+                    },
+                    {
+                        ProjectName:'Travel 2 Save',
+                        TeamSize:'2',
+                        TechnologyUsed:'Wordpress',
+                        ExternalLink:'http://www.travel2save.com/',
+
+                    }
+                ]}  ,
+            {
               companyName:'Viztar Infotech pvt. ltd.',
                 projects:[
                     {

@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import Aboutcard from './infocard/about';
 import Skillcard from './infocard/skillcard';
+import ProjectList from './infocard/projectlist';
 import Profileinfo from './data/data';
+
+
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -54,6 +57,7 @@ class App extends Component {
             </AppBar> 
             <Aboutcard info={Profileinfo.aboutinfo}/>
             <Skillcard skils={Profileinfo.keypoints}/>
+            <ProjectList projects= {Profileinfo.Project_portfoliolistitems}/>
         </div>
     );
   }
