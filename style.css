@@ -4,6 +4,11 @@ h1, p {
 .MuiPaper-root.card.skill-card {
     background: #ffc000;
     color: #222;
+    transition: 0.6s
+}
+.MuiPaper-root.card.skill-card {
+    background: #ffffff;
+
 }
 
 .CircularProgressbar .CircularProgressbar-path {
