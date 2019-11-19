@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import Aboutcard from './infocard/about';
+import Skillcard from './infocard/skillcard';
 import Profileinfo from './data/data';
 
 import AppBar from '@material-ui/core/AppBar';
@@ -51,7 +52,8 @@ class App extends Component {
                     </div>                   
                 </Toolbar>
             </AppBar> 
-            <Aboutcard info={Profileinfo.aboutinfo}/>     
+            <Aboutcard info={Profileinfo.aboutinfo}/>
+            <Skillcard skils={Profileinfo.keypoints}/>
         </div>
     );
   }

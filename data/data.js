@@ -14,18 +14,15 @@ const Profileinfo = {
     
   keypoints : [
     { myskills:[
-        {
-          Wordpress:85,
-          HTML5:94,
-          CSS3:92,
-          jQuery:85,
-          Ionic:80,
-          Angular:70,
-          React:60,
-          PHP:60,
-          Joomla:70,
-          
-        }
+        {skill:'Wordpress', value:85},
+{skill:'HTML5', value:94},
+{skill:'CSS3', value:92},
+{skill:'jQuery', value:85},
+{skill:'Ionic', value:80},
+{skill:'Angular', value:70},
+{skill:'React', value:60},
+{skill:'PHP', value:60},
+{skill:'Joomla', value:70},
 
     ],
       topSkills:'HTML5,CSS3,Ionic3,Ionic3,Angular4, React,Jquery,Javascript',
