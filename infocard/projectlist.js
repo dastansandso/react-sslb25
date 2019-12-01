@@ -13,6 +13,10 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#fff',
     backgroundClip: 'border-box',
     border: '1px solid rgba(0,0,0,.125)',
+  },
+  p:{
+    textTransform:'Uppercase',
+    margin:0,
   }
 }));
 
@@ -27,12 +31,15 @@ const ProjectList = props => {
             return (
               <div className="col-md-12 text-center">
                 <Card className="card my-2">
-                  <CardHeader className="pb-0" title={project.companyName} />
+                  <CardHeader className="pb-0" 
+                  title={project.companyName}  />
+                  <p className={classes.p}>{project.Startpoint}- {project.Endpoint}</p>
+                  <p className={classes.p}>{project.Role}</p>
                   <CardContent className="pb-0">
                     <div className="row">
                       {project.projects.map(proj => {
                         return (
-                          <div className="col-md-4 text-center  my-2">
+                          <div className="col-md-3 text-center  my-2">
                             <Card className="card project-card h-100">
                               <CardHeader
                                 className=""
