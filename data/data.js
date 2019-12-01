@@ -2,7 +2,7 @@ const Profileinfo = {
   aboutinfo: [
     {
       intro:
-        "6+ years of experience into frontend development. Which include varius technologies which i acuire during my live project developemnt and achieved best result in short period of time. These technologies are  namely HTML5,Wordpress customization, Joomla Customization, Wordpress/Joomla Theme creation, Ionic based mobile App development, Angular,web3 based projects and recently started working with ReactJs",
+        "6+ years of experience into frontend development. Which include various technologies which I acquire during my live project development and achieved best result in short period of time. These technologies are namely HTML5, WordPress customization, Joomla Customization, WordPress/Joomla Theme creation, Ionic based mobile App development, Angular, web3 based projects and recently started working with ReactJs.",
       username: "Dhiraj Patil",
       role: "Front-End Developer",
       emailId: "patil356@gmail.com",
@@ -92,7 +92,37 @@ const Profileinfo = {
                  TeamSize:'6',
                  TechnologyUsed:'HTML,PHP,jQuery',
                  ExternalLink:'',
-             }
+             },
+             {
+ProjectName:'Vivaan Solar',
+    TeamSize:'3',
+    TechnologyUsed:'HTML,PHP,jQuery',
+    ExternalLink:'',
+},
+{
+ProjectName:'Purple Kaddu',
+    TeamSize:'3',
+    TechnologyUsed:'HTML,PHP,jQuery',
+    ExternalLink:'',
+},
+{
+ProjectName:'Vipindustries.co.in',
+    TeamSize:'3',
+    TechnologyUsed:'HTML,PHP,jQuery',
+    ExternalLink:'',
+},
+{
+ProjectName:'Pidilite',
+    TeamSize:'3',
+    TechnologyUsed:'HTML,PHP,jQuery',
+    ExternalLink:'',
+},
+{
+ProjectName:'Loveofspa',
+    TeamSize:'3',
+    TechnologyUsed:'HTML,PHP,jQuery',
+    ExternalLink:'',
+},
         ]},
         {companyName:'Digillence Rolson LLP',
             projects:[
