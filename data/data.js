@@ -215,7 +215,7 @@ const Profileinfo = {
     },
     {
       companyName: "Viztar Infotech pvt. ltd.",
-       Startpoint: "Aug 2018",
+      Startpoint: "Aug 2018",
       Endpoint: "present",
       Role: "Senior UI/UX Developer",
       projects: [
@@ -230,6 +230,24 @@ const Profileinfo = {
           TeamSize: "3",
           TechnologyUsed: "Ionic",
           ExternalLink: "https://www.smartouch.world"
+        },
+        {
+          ProjectName: " Awesome food",
+          TeamSize: 2,
+          TechnologyUsed: " WordPress",
+          ExternalLink: "http://www.awesomefood.in/"
+        },
+        {
+          ProjectName: " SKVL Milk",
+          TeamSize: 2,
+          TechnologyUsed: " WordPress ",
+          ExternalLink: ""
+        },
+        {
+          ProjectName: " Pahaadi Local",
+          TeamSize: " 2",
+          TechnologyUsed: "WordPress",
+          ExternalLink: "http://viztarinfotech.com/templates/pahadilocal"
         },
         {
           ProjectName: "Z-tube",
