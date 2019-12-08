@@ -23,7 +23,7 @@ return(
    <div className="row justify-content-center">
   {props.skils[0].myskills.map(myskill => {
   return(
-    <div className="col-4 col-md-2 text-center">
+    <div className="col-6 col-md-2 text-center">
     <Card className="card skill-card my-2">
     <CardContent className="pb-0">
         <CircularProgressbar value={myskill.value} text={myskill.value} />
